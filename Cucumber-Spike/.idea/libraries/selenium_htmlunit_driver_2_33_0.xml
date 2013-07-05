@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="selenium-htmlunit-driver-2.33.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.seleniumhq.selenium/selenium-htmlunit-driver/2.33.0/jar/41f30653f70eb6b9ca2c5d270e1dbbc51d5e9d44/selenium-htmlunit-driver-2.33.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.seleniumhq.selenium/selenium-htmlunit-driver/2.33.0/source/fcebe34737289c9d1bddd1196f1e32c2c5e970d9/selenium-htmlunit-driver-2.33.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
