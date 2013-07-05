@@ -13,10 +13,16 @@ import static com.thoughtworks.selenium.SeleneseTestBase.assertTrue;
 
 public class BasicStepDefs {
 
-  private WebDriver driver = new FirefoxDriver();
+  WebDriver driver =null;
+
+  private void initializeDriver()
+  {
+    driver = new FirefoxDriver();
+  }
+
   /*
- Basic.feature steps
-  */
+  Basic feature steps
+   */
 
   @Given("^\"([^\"]*)\" use Cucumber Main class to run tests$")
   public void I_use_Cucumber_Main_class_to_run_tests(String testString) throws Throwable {
@@ -30,18 +36,18 @@ public class BasicStepDefs {
 
   @Then("^Gradle should report \"([^\"]*)\"$")
 
-  public void Gradle_should_report(String arg1) throws Throwable {
+  public void Gradle_should_report() throws Throwable {
     throw new PendingException();
   }
 
 
- /*
- google.feature steps
-  */
-
+  /*
+  Google feature steps
+   */
 
   @Given("^the page is open \"([^\"]*)\"$")
   public void the_page_is_open(String page) throws Throwable {
+    initializeDriver();
     driver.get(page);
   }
 
@@ -54,14 +60,13 @@ public class BasicStepDefs {
 
   @Then("^a browser title should contains \"([^\"]*)\"$")
   public void a_browser_title_should_contains(String text) throws Throwable {
-    Thread.sleep(2000);
-    assertTrue(driver.getTitle().contains(text));
+    Thread.sleep(1000);
+    assertTrue("Expected "+text+" on tile, but saw "+driver.getTitle(),driver.getTitle().contains(text));
     closeDriver();
 
   }
 
   private void closeDriver() {
-    driver.close();
     driver.quit();
   }
 

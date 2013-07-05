@@ -4,11 +4,12 @@
     <list default="true" id="390baa88-1312-496f-9b9f-c68ab61dcaa6" name="Default" comment="" />
     <ignored path="functional-tests.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/BasicStepDefs.java" changelist="390baa88-1312-496f-9b9f-c68ab61dcaa6" time="1373032852976" ignored="false" />
+    <file path="/BasicStepDefs.java" changelist="390baa88-1312-496f-9b9f-c68ab61dcaa6" time="1373036918015" ignored="false" />
     <file path="/gradle.feature" changelist="390baa88-1312-496f-9b9f-c68ab61dcaa6" time="1373030899772" ignored="false" />
     <file path="/.name" changelist="390baa88-1312-496f-9b9f-c68ab61dcaa6" time="1373032476744" ignored="false" />
     <file path="/a.dummy" changelist="390baa88-1312-496f-9b9f-c68ab61dcaa6" time="1373032528736" ignored="false" />
     <file path="$PROJECT_DIR$/../functional-tests/.idea/workspace.xml" changelist="390baa88-1312-496f-9b9f-c68ab61dcaa6" time="1373033338850" ignored="false" />
+    <file path="/build.gradle" changelist="390baa88-1312-496f-9b9f-c68ab61dcaa6" time="1373036781119" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <file leaf-file-name="RunCukesTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/gradle/cucumber/RunCukesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="1" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+            <state line="9" column="31" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,10 +83,46 @@
       <file leaf-file-name="BasicStepDefs.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/gradle/cucumber/BasicStepDefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="18" selection-start="1692" selection-end="1692" vertical-scroll-proportion="2.0803058">
+            <state line="44" column="8" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.7151052">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Google.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/Google.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="30" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Production.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/Production.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="114" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Basic.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/Basic.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -175,8 +212,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/resources/gradle/cucumber/google.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/gradle/cucumber/gradle.feature" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.idea/.name" />
+        <option value="$PROJECT_DIR$/src/test/resources/gradle/cucumber/Google.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/gradle/cucumber/Basic.feature" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/gradle/cucumber/BasicStepDefs.java" />
       </list>
     </option>
@@ -533,10 +572,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: Basic" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: gradle" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: google" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: Basic" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: gradle" />
         <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: google" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: gradle" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: google" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -555,7 +594,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="940" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -576,7 +615,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.67195123" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.67195123" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32804877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -658,32 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/Production.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/Basic.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/google.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -731,14 +744,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gradle/cucumber/RunCukesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+        <state line="9" column="31" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/Production.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="114" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/Basic.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/Google.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="30" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gradle/cucumber/BasicStepDefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="18" selection-start="1692" selection-end="1692" vertical-scroll-proportion="2.0803058">
+        <state line="44" column="8" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.7151052">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

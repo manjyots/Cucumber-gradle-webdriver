@@ -1,7 +1,5 @@
-Feature: Search on Google
-  As an user
-  I want to search on Google
-  So that I can see results
+Feature: Gradle-Cucumber integration
+
 
   Scenario: results are shown
     Given the page is open "http://www.google.com"
